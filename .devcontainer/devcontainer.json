@@ -1,0 +1,10 @@
+{
+    "name": "Pytorch",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "runArgs": [
+        "--gpus",
+        "all"
+    ]
+}
